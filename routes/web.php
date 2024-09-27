@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::any('git-pull', function () {
+    return view('git-pull');
+});
 Route::get('/', function () {
     return view('welcome');
 });
